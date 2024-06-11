@@ -1,0 +1,56 @@
+.judul {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 2px 3px 30px rgba(8, 66, 102, 0.7);
+    border-radius: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+.form-group label {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background: darkcyan;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form-group button:hover {
+    background: #006666;
+}
